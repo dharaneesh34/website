@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+}
+h2{
+  color: #24BF99;
+  margin: 0 auto;
+  width: auto;
+  font-size: 2rem;
+}
+h3{
+  color: #03DEA8;
+  margin: 0;
+  width: auto;
+}
+hr{
+  color: #0697F2;
+  border: dotted;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.intro{
+
+  margin: auto;
+}
+.skill-row{
+  width:35%;
+  margin:30px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.top-container {
+  position: relative;
+}
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #03DEA8;
+  padding: 20px 0 20px;
+}
+.web{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.art{
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.vol{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.btn {
+  background: #40d114;
+  background-image: -webkit-linear-gradient(top, #40d114, #0eadb5);
+  background-image: -moz-linear-gradient(top, #40d114, #0eadb5);
+  background-image: -ms-linear-gradient(top, #40d114, #0eadb5);
+  background-image: -o-linear-gradient(top, #40d114, #0eadb5);
+  background-image: linear-gradient(to bottom, #40d114, #0eadb5);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 9px 16px 9px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.name{
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+.tag{
+  position: absolute;
+   top: 270px;
+   left: 0;
+   width: 100%;
+   color: #000000;
+}
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+a{
+  color: #3498db;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
